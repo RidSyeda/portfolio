@@ -1,0 +1,129 @@
+<!doctype html> 
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title> Gallery</title>
+<link rel="stylesheet" href="Gallery.css">
+
+</head>
+
+
+<body>
+
+    <nav>
+        <a class="link" href="https://w1996153.users.ecs.westminster.ac.uk/femal/home.html">Home</a>
+        <a class="link" href="https://w1941231.users.ecs.westminster.ac.uk/femal/splash.html">Slash Screen</a>
+        <a class="link" href="https://w1941231.users.ecs.westminster.ac.uk/femal/shop.html">Shop</a>
+        <a class="link" href="gallery.html">Gallery</a>
+        <a class="link" href="sitemap.html">Sitemap</a>
+        <a class="link" href="https://w1898082.users.ecs.westminster.ac.uk/femal/profile.html">User Profile </a>
+        <a class="link" href="https://w1996153.users.ecs.westminster.ac.uk/femal/feedback.html">Feedback </a>
+        <a class="link" href="https://w1898082.users.ecs.westminster.ac.uk/femal/team.html">Team </a>
+        <div class="dropdown">
+            <button class="menubtn">Our Aim</button>
+            <div class="menucontent">
+                <a class="link-hide" href="https://w1941231.users.ecs.westminster.ac.uk/femal/content_ST1.html">Equal protection and non-discrimination</a>
+                <a class="link-hide" href="https://w1996153.users.ecs.westminster.ac.uk/femal/content_ST2.html">Right to Education</a>
+                <a class="link-hide" href="https://w1898082.users.ecs.westminster.ac.uk/femal/content_ST3.html">Right to Work</a>
+                <a class="link-hide" href="content_ST4.html">How can gender equality reduce poverty?</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="menubtn">Page Editor</button>
+            <div class="menucontent">
+                <a class="link-hide" href="https://w1941231.users.ecs.westminster.ac.uk/femal/content_ST1.html">pageEditor_ST1</a>
+                <a class="link-hide" href="https://w1996153.users.ecs.westminster.ac.uk/femal/pageEditor_ST2.html">pageEditor_ST2</a>
+                <a class="link-hide" href="https://w1898082.users.ecs.westminster.ac.uk/femal/pageEditor_ST3.html">pageEditor_ST3</a>
+                <a class="link-hide" href="pageEditor_ST4.html">pageEditor_ST4</a>
+            </div>
+        </div>
+    </nav>
+ 
+
+
+
+<div class="title" >
+<h1><span> The Gallery </span></h1>
+</div>
+
+<img src="moon.png" id="icon" alt="dark-theme">
+
+<p>UN Women is the global champion for gender equality, 
+    working to develop and uphold standards and create an environment in which every 
+    woman and girl can exercise her human rights and live up to her full potential. 
+    We are trusted partners for advocates and decision-makers from all walks of life, 
+    and a leader in the effort to achieve gender equality.</p>
+
+<div class="Images">
+    <img src="UN-women-vilolent.jpg" alt="UN-women-vilolent" id="BigPic">
+    <div class="description"><span id="description">UN-women-vilolent </span></div>
+
+        <a href="UN-women-vilolent.jpg" >
+            <img class="image-item" src="UN-women-vilolent.jpg" alt="Poster on violence of women"
+             onmouseover="changeBigPic(this.src); changeDescription(0);"></a>
+
+        <a href="UN-women-plants.jpg" >
+        <img class="image-item" src="UN-women-plants.jpg" alt="Poster on planets"
+         onmouseover="changeBigPic(this.src); changeDescription(1);"></a>
+
+        <a href="UN-women-peace.jpg" >
+        <img class="image-item" src="UN-women-peace.jpg" alt="Poster on peace" 
+        onmouseover="changeBigPic(this.src); changeDescription(2);"></a>
+
+        <a href="UN-women-Leadership.jpg" >
+        <img class="image-item" src="UN-women-Leadership.jpg" alt="Poster on Leadership"
+        onmouseover="changeBigPic(this.src); changeDescription(3);"></a>
+
+        <a href="UN-women-end-poverty.jpg" >
+        <img class="image-item" src="UN-women-end-poverty.jpg" alt="Poster on end poverty"
+         onmouseover="changeBigPic(this.src); changeDescription(4);"></a>
+
+        <a href="UN-women-economy.jpg" >
+        <img class="image-item" src="UN-women-economy.jpg" alt="Poster on economy"
+        onmouseover="changeBigPic(this.src); changeDescription(5);"></a>
+    </div>
+     
+    <br>
+
+    <script>
+
+    function changeBigPic(source){
+        document.getElementById("BigPic").src = source;
+    }
+
+    function changeDescription (index){
+        const descriptions = [
+        "WE WANT A STOP TO VIOLENCE!",
+        "WE WANT A SUSTAINABLE PLANET!", 
+        "WE WANT A PLACE IN PEACE!",
+        "WE WANT EQUAL LEADERSHIP!",
+        "WE WANT AN END TO POVERTY!",
+        "WE WANT ECONOMIES THAT WORK FOR WOMEN!",
+
+        ];
+        document.getElementById("description").innerHTML = descriptions[index];
+    }
+
+    var icon = document.getElementById("icon");
+
+icon.onclick = function () {
+    document.body.classList.toggle("dark-theme");
+    if (document.body.classList.contains("dark-theme")) {
+        icon.src = "sun.png";
+    } else {
+        icon.src = "moon.png"; 
+    }
+}
+    
+  
+
+    
+
+    </script>
+
+</body>
+    
+    
+</html>
+
