@@ -1,0 +1,140 @@
+<!doctype HTML> 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Content Page_ST4</title>
+
+<link rel="stylesheet" href="Content_ST4.css">
+
+</head>
+
+
+<body > 
+
+
+
+ <nav>
+    <a class="link" href="https://w1996153.users.ecs.westminster.ac.uk/femal/home.html">Home</a>
+    <a class="link" href="https://w1941231.users.ecs.westminster.ac.uk/femal/splash.html">Slash Screen</a>
+    <a class="link" href="https://w1941231.users.ecs.westminster.ac.uk/femal/shop.html">Shop</a>
+    <a class="link" href="gallery.html">Gallery</a>
+    <a class="link" href="sitemap.html">Sitemap</a>
+    <a class="link" href="https://w1898082.users.ecs.westminster.ac.uk/femal/profile.html">User Profile </a>
+    <a class="link" href="https://w1996153.users.ecs.westminster.ac.uk/femal/feedback.html">Feedback </a>
+    <a class="link" href="https://w1898082.users.ecs.westminster.ac.uk/femal/team.html">Team </a>
+    <div class="dropdown">
+        <button class="menubtn">Our Aim</button>
+        <div class="menucontent">
+            <a class="link-hide" href="https://w1941231.users.ecs.westminster.ac.uk/femal/content_ST1.html">Equal protection and non-discrimination</a>
+            <a class="link-hide" href="https://w1996153.users.ecs.westminster.ac.uk/femal/content_ST2.html">Right to Education</a>
+            <a class="link-hide" href="https://w1898082.users.ecs.westminster.ac.uk/femal/content_ST3.html">Right to Work</a>
+            <a class="link-hide" href="content_ST4.html">How can gender equality reduce poverty?</a>
+        </div>
+    </div>
+    <div class="dropdown">
+        <button class="menubtn">Page Editor</button>
+        <div class="menucontent">
+            <a class="link-hide" href="https://w1941231.users.ecs.westminster.ac.uk/femal/content_ST1.html">pageEditor_ST1</a>
+            <a class="link-hide" href="https://w1996153.users.ecs.westminster.ac.uk/femal/pageEditor_ST2.html">pageEditor_ST2</a>
+            <a class="link-hide" href="https://w1898082.users.ecs.westminster.ac.uk/femal/pageEditor_ST3.html">pageEditor_ST3</a>
+            <a class="link-hide" href="pageEditor_ST4.html">pageEditor_ST4</a>
+        </div>
+    </div>
+</nav>
+
+<div class="title" >
+    <h1><span> How can gender equality reduce poverty?  </span></h1>
+</div>
+
+
+ <ol>
+    <li><a href="#Boosting_Productivity">Boosting Productivity Through Quality Jobs</a></li>
+    <li><a href="#Social_and_Legal">Inclusive Social and Legal Protection</a></li>
+    <li><a href="#Caring_Society">Creating a Caring Society</a></li>
+    <li><a href="#Sustainable_Economies">Transitioning to Sustainable Economies</a></li>
+    <li><a href="#Gender-Based_Violence">Ending Gender-Based Violence</a></li>    
+</ol>
+
+
+    <div class="bottom">
+        <a href="#marker1" id="marker2">&darr;Jump to Bottom &darr;</a>
+    </div>
+    
+    <h2 class="Sub-topic" id="Boosting_Productivity">Boosting Productivity Through Quality Jobs:</h2>
+    
+    <div>
+        <p>Only 61 per cent of prime working-age women are in the labour force, compared to 90.6 per cent of
+             men. Furthermore, nearly 60 per cent of women worldwide are in the informal economy, a figure that 
+             skyrockets to more than 90 per cent in low-income countries. A vast proportion of them hold unstable, 
+             low-paid, and unskilled jobs that lack social security nets as domestic workers, construction workers,
+              or seasonal agricultural labourers. Investing in skilled, decent jobs for women has a ripple effect with
+               broader benefits to society that not only promote gender equality but also drive sustainable economic 
+               development for all.</p>
+    
+        <p>The Skill Impact Bond is a pioneering USD 14.4 million project in India designed to boost women's access 
+            to decent work. Around 50,000 people (at least 60 per cent of whom are women) will be equipped with 
+            employability skills, including digital and financial literacy, language training, and industry-specific 
+            courses.</p>
+    
+        <img src="Boosting_Productivity.jpg" alt="Quality Jobs">
+    </div>   
+    
+    <h2 class="Sub-topic" id="Social_and_Legal">Inclusive Social and Legal Protection:</h2>
+    
+    <div>
+        <p>Expanding women's access to formal, decent jobs and to social welfare programmes—such as
+             healthcare, pensions systems that recognize unpaid care work, and full maternity protection—lays 
+             the foundation for economic empowerment. It addresses the root causes of inequality while also shielding 
+             women from bias, gender-based discrimination, and violence in the workplace.</p>
+    
+        <p>In Germany, the Initiative for Global Solidarity has helped 300,000 workers (60 per cent women) to access 
+            improved complaint and remedy processes when they experience discrimination and violence in the workplace. 
+            More than 1,500 workers have received training to support these efforts and some 200,000 women from the
+             textile, garment, and electronics sectors can now address workplace harassment and gender discrimination
+              issues.</p>
+    
+        <img src="Legal.png" alt="Quality Jobs">
+    </div>
+    
+    <h2 class="Sub-topic" id="Caring_Society">Creating a Caring Society:</h2>
+    
+    <div>
+        <p>Women bear the brunt of most unpaid care and domestic work, spending 2.8 more hours than men on unpaid care. As a result, women and girls have less time and opportunities to access education and paid work, or to participate in social and political life. This in turn keeps them poorer than men. Investing in care services, such as provision of daycare and elderly care, could create almost 300 million jobs.</p>
+    
+        <p>In 2023, Kazakhstan extended childcare payments for both working and non-working mothers from 1 to 1.5 years and increased social benefits for people with disabilities by 14.5 per cent. This improved support system helped nearly 700,000 parents over the year.</p>
+    
+        <img src="Caring.jpg" alt="Quality Jobs">
+    </div>
+    
+    <h2 class="Sub-topic" id="Sustainable_Economies">Transitioning to Sustainable Economies:</h2>
+    
+    <div>   
+        <p>As the world pivots towards renewable energy solutions, women are vastly underrepresented in this sector with just 31 per cent of jobs filled by women. The world's global south is overwhelmingly affected by the impacts of climate change and women in these regions, and beyond, must be included in the transition towards an inclusive economy that cares for both people and the planet.</p>
+    
+        <p>The DESFERS project in the Sahel region—Senegal, Mali, and Niger—helps women transition from informal jobs to careers in renewable energy. It offers technical training, funding support, and job opportunities while tackling gender inequality and social barriers. The project is supporting 4,500 women-owned businesses in sustainable energy, training 7,000 female entrepreneurs, and facilitating access to renewable energy and financing for 21,000 women.</p>
+    
+        <img src="Sustainable.jpg" alt="Quality Jobs">
+    </div>
+    
+    <h2 class="Sub-topic" id="Gender-Based_Violence">Ending Gender-Based Violence:</h2>
+    
+    <div>   
+        <p>Gender based-violence is the most pervasive human rights violation affecting one in three 
+            women worldwide. Tackling violence against women and girls is key to creating stable societies. 
+            When women feel safe, they are more likely to participate in the economy and contribute to their 
+            communities' development.</p>
+    
+        <p>The Stepping Stone Grassroots Women group, part of the Huairou Commission, 
+            is tackling this issue by empowering women traders and calling for changes to protect women's
+             rights and dignity. The project has helped 16 female traders establish women-only fishponds, 
+             disrupting traditional power dynamics and boosting women's economic independence.</p>
+    
+        <img src="Gender-Based.jpg" alt="Quality Jobs">
+    </div>   
+    
+    <div class="bottom">
+        <a href="#marker2" id="marker1">&uarr;Go to Top &uarr;</a>
+    </div>
+    
+    </body>
+    </html>
